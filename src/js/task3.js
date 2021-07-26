@@ -15,14 +15,12 @@ const makeTransaction = (transaction) => {
             }
         }, delay);
     });
-    console.log(delay);
     return promise;
 
 
 };
 
 const logSuccess = ([id, time]) => {
-    console.log(time);
     console.log(`Transaction ${id} processed in ${time} ms`);
 };
 
